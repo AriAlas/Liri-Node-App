@@ -1,19 +1,15 @@
 # Liri-Node-App
 
-####Liri is a Lenguage Interpretation and Recogition Interface. It takes arguments from the user in order to give data back. With Liri you can find out about a Movie Info, Song Info or Concert Info.
+Liri is a Lenguage Interpretation and Recogition Interface. It takes arguments from the user in order to give data back. With Liri you can find out about a Movie Info, Song Info or Concert Info.
 
 ## Packages you need (they are in the package.json file too)
-1.https://www.npmjs.com/package/node-spotify-api - automatic!
-[node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
+1.[node-spotify-api](https://www.npmjs.com/package/node-spotify-api)
 
-1.https://www.npmjs.com/package/axios - automatic!
-[Axios](https://www.npmjs.com/package/axios) 
+1.[Axios](https://www.npmjs.com/package/axios) 
 
-1. https://www.npmjs.com/package/moment - automatic!
-[Momentjs](https://www.npmjs.com/package/moment) 
+1.[Momentjs](https://www.npmjs.com/package/moment) 
 
-1.https://www.npmjs.com/package/dotenv - automatic!
-[dotenv](https://www.npmjs.com/package/dotenv) 
+1.[dotenv](https://www.npmjs.com/package/dotenv) 
 
 ## Command Examples you can use
 
@@ -30,6 +26,5 @@ Provides next concert information like the date, place and country.
 Reads a random file that contains any of the above inputs.
 
 
-Demonstration video:
-https://drive.google.com/file/d/1RYNv0XRn1NOXi9H2whl0kpfyLuidf8o0/view - automatic!
+###Demonstration video:
 [Click Me to see How it works!!](https://drive.google.com/file/d/1RYNv0XRn1NOXi9H2whl0kpfyLuidf8o0/view)
