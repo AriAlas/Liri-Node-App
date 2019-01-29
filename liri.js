@@ -82,7 +82,7 @@ function concertThis(){
     axios.get("https://rest.bandsintown.com/artists/" + userInput + "/events?app_id=codingbootcamp").then(function(response){
         // console.log(response.data);
         console.log("\nName of the Venue: " + response.data[0].venue.name);
-        console.log("Name of the Venue: " + response.data[0].venue.city + " " + response.data[0].venue.country);
+        console.log("City of the Venue: " + response.data[0].venue.city + " " + response.data[0].venue.country);
         console.log("Date of the Venue: " + moment(response.data[0].datetime).format("MM-DD-YYYY") + "\n");
 
         fs.appendFile("log.txt", command + ", " + userInput + ", ", function(err){
